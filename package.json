@@ -5,6 +5,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "start": "lerna run dev --parallel"
+    "start": "lerna run dev --parallel",
+    "bootstrap": "lerna bootstrap"
   }
 }
