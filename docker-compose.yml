@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  Monodramon:
+    container_name: Monodramon
+    image: monodramon
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+      - "5002:5002"
