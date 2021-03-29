@@ -8,6 +8,8 @@
     "start": "lerna run dev --parallel",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build --parallel",
-    "prod": "lerna run start --parallel"
+    "prod": "lerna run start --parallel",
+    "team:main": "lerna run dev --scope '{main,auth}'",
+    "team:profile": "lerna run dev --scope '{profile,auth}'"
   }
 }
