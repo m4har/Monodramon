@@ -1,0 +1,34 @@
+{
+  "name": "@monodramon/postcss",
+  "version": "1.0.0",
+  "description": "ui css",
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "mahardicka nurachman <mahardicka404@gmail.com>",
+  "homepage": "https://github.com/m4har/Monodramon#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4har/Monodramon.git"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "viewer": "npx tailwind-config-viewer -o"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "bugs": {
+    "url": "https://github.com/m4har/Monodramon/issues"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.0.4"
+  }
+}
